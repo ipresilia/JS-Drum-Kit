@@ -1,0 +1,62 @@
+html {
+  font-size: 10px;
+  background: url(https://images.unsplash.com/photo-1464800959563-472c0567132f?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  min-height: 100vh;
+}
+
+.welcome {
+  padding: 50px 0 200px;
+  color: white;
+  text-align: center;
+  /*text-shadow: 0 0 .5rem black;*/
+  font-size: 2.5rem;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  /*min-height: 100vh;*/
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid rgba(255,255,255,0.7);
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(255,255,255,0.4);
+  /*text-shadow: 0 0 .5rem white;*/
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ff5400;
+  box-shadow: 0 0 1rem #ff5400;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ff5400;
+}
